@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+img {
+  float: left;
+  margin: 10px;
+  height: 70px;
+  max-width: 70px;
+}
+#list div {
+  padding: 10px 0;
+  border: 1px solid black;
+  width: 40%;
+  margin: 5px auto;
+  min-width: 600px;
+  clear: both;
+  display: block;
+  height: auto;
+}
+#form {
+  float: left;
+  position: fixed;
+  text-align: left;
+  width: auto;
+}
+h1 {
+  clear: both;
+}
+#spacer {
+  clear: both;
+}
+@media (max-width: 1100px){
+  #form {
+    position: relative;
+    clear: both;
+    display: block;
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    /*I can't get this to center for the life of me*/
+  }
+}
